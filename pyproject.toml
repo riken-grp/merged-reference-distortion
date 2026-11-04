@@ -1,0 +1,37 @@
+[project]
+name = "merged-reference-distortion"
+version = "0.1.0"
+description = "Code for analyzing merged-reference hidden-state distortion in model merging"
+authors = [
+    { name = "Canasai Kruengkrai", email = "canasai@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "torch ==2.7.1",
+    "transformers ==4.56.2",
+    "peft >=0.17.0,<0.18.0",
+    "matplotlib >=3.10.5,<4.0.0",
+    "fire >=0.7.1,<0.8.0",
+    "protobuf >=6.33.0,<7.0.0",
+    "scipy >=1.16.3,<2.0.0",
+    "tiktoken >=0.12.0,<0.13.0",
+    "sentencepiece >=0.2.1,<0.3.0",
+    "datasets <5.0",
+]
+
+[tool.poetry]
+packages = [
+    { include = "mrd" }
+]
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^4.3.0"
+black = "^25.9.0"
+isort = "^7.0.0"
+flake8 = "^7.3.0"
+shellcheck-py = "^0.11.0.1"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
