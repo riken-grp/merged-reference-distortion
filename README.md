@@ -76,10 +76,24 @@ Checkpoints and experimental outputs are available at:
 
 https://huggingface.co/datasets/canasai/merged-reference-distortion-artifacts
 
+
 ## Citation
 
-What Changes in Hidden States When Model Merging Hurts Task Performance?
-Canasai Kruengkrai and Koichiro Yoshino
-To appear in AACL-IJCNLP 2026.
+If you use this code or models, please cite:
 
-The official BibTeX entry and paper link will be added when they become available.
+```bibtex
+@inproceedings{kruengkrai-yoshino-2026,
+    title = "What Changes in Hidden States When Model Merging Hurts Task Performance?",
+    author = "Kruengkrai, Canasai  and Yoshino, Koichiro",
+    booktitle = "Proceedings of the 15th International Joint Conference on Natural Language Processing and the 5th Conference of the {A}sia-Pacific Chapter of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)",
+    year = "2026",
+    url = "https://aclanthology.org/2026.aacl-long.180/",
+    pages = "4021--4034",
+}
+```
+
+
+## Acknowledgments
+
+This work was supported by JSPS KAKENHI Grant Number JP26K14954.
+Part of this research was conducted by AIST and its subcontractor, The University of Osaka, under FRONTia, a Japanese national program led by the Ministry of Economy, Trade and Industry (METI) and the New Energy and Industrial Technology Development Organization (NEDO), aimed at developing a domestic multimodal foundation model for AI robots and physical AI.
